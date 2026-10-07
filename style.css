@@ -1,9 +1,94 @@
-a , div{
+.button-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 25%;
+
+}
+.navigation-bar{
+  padding: 1rem 2rem 0 1rem;
+  display: flex;
+  height: 5rem;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid gainsboro;
+
+}
+.list{
+  display:inline-block;
+}
+.logo{
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+}
+a , ul{
     color:red;
-    margin: 60vh 10vw 10vh 0vw ;
-    background-color: black;
-    width: 200px;
-    height: 100px;
+     margin: 2vh 3vw 2vh 0vw ; 
+    background-color: none;
+    list-style-type: none;
+    height: 20px;
+}
+li {
+        display: inline-block;
+        padding-left: 0,5rem;
+ }
 
+li, a{
+    text-decoration: none;
+    color: rgb(110, 110, 115);
+}
+li, a:hover{
+    color: rgba(14, 149, 253, 0.674);
+}
+body{
+  margin: 0px;
+}
+.join-us{
+    width: 7.5rem;
+    height: 2.5rem;
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 5px;
+    font-size: small;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.join-us:hover{
+    background-color: red;
+    border: 2px solid red;
+}
+.search{
+    border:none;
+    background-color: white;
+    width: 1rem;
+    height: 1rem;
+}
+.hero-section{
+ background-color: #0A1222;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    border: 1px solid;
+}
 
+.image{ 
+   position: relative;
+  left: 53.7%;
+  right: 0; 
+   width: 589px;
+  height:461px;
+}
+.grande-titre{
+  color: #ffffff;
+  font-family:'Times New Roman', Times, serif;
+font-weight: 900;
+margin-left: 0;
+font-size: 76px;
+line-height: 120%;
+letter-spacing: 0%;
+border: 1px solid red;
+margin: 0;
 }
